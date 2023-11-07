@@ -1,0 +1,9 @@
+db.sqlite3
+geckodriver.log
+.venv
+Pipfile
+Pipfile.lock
+.DS_Store
+__pycache__
+*.pyc
+requirements.txt
