@@ -9,4 +9,4 @@ class HomePageTest(TestCase):
         html = response.content.decode("utf8")
         self.assertIn("<title>To-Do lists</title>", html)
         self.assertTrue(html.startswith("<html>"))
-        self.assertTrue(html.startswith("</html>"))
+        self.assertTrue(html.endswith("</html>"))
